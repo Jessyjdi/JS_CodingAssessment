@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <title>JS_CodingAssessment</title>
+</head>
+<body>
+    <!--Landing page of the Code-Assessment-->
+    <div class="scores"><a href="score.html">View Highscores</a></div>
+        <div id="timer" class=" timer">Time:<span class="timer-count">75</span></div>
+        <div class="card">
+            <div id="start-screen" class="start">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the code-related questions within the time limit.<br>
+            Keep in mind that your incorrect answer will penalize your<br> 
+            score time by ten seconds</p>
+            <button class="start-button">Start Quiz</button></div>
+        </div>
+
+<!--Question Screen--> 
+<div id="questions" class="hide">
+    <h2 id="question-title"></h2>
+    <div id="choices" class="choices"></div>
+  </div>
+<!--HighScore Page-->
+<div class="hscontainer">
+    <div id="hscontainer" class="hide" >
+    <h1>Highscores</h1>
+      <button class="btn">Go Back</button>
+      <button id="clear btn">Clear Highscores</button>
+    </div>
+</div>
+ <!--Finish Page-->
+    <div id="end-screen" class="hide">
+     <h2>All done!</h2>
+     <p>Your final score is <span id="final-score"></span>.</p>
+     <p>
+     Enter initials: <input type="text" id="initials" max="3" />
+     <button id="submit">Submit</button>
+     </p>
+     </div>
+       <div id="feedback" class="feedback hide"></div>
+     </div>
+<script src="assets/JS/question.js"></script>
+  <script src="assets/JS/script.js"></script>
+  </body>
+</html>
