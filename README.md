@@ -47,3 +47,4 @@ Please refer to the license in the repo.
 
 ## Link to Live project
 
+https://jessyjdi.github.io/JS_CodingAssessment/
